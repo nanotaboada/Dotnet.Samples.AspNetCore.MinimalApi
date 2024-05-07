@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug: Minimal API (Swagger)",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/backend/Players.API/bin/Debug/net8.0/Players.API.dll",
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+https://localhost:([0-9]+)",
+                "uriFormat": "https://localhost:%s/swagger"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "https://localhost:9000",
+                "ASPNETCORE_DETAILEDERRORS": "1",
+                "ASPNETCORE_SHUTDOWNTIMEOUTSECONDS": "3"
+            }
+        },
+        {
+            "name": "Attach: Minimal API",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}

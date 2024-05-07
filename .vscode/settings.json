@@ -1,0 +1,73 @@
+{
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.pinnedTabsOnSeparateRow": true,
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 11,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#999999",
+    "[Material Theme Darker High Contrast]": {}
+  },
+  "workbench.tree.enableStickyScroll": true,
+
+  "editor.rulers": [{ "column": 127 }],
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.trimAutoWhitespace": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.wordWrap": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.largeFileOptimizations": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.minimap.enabled": true,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.maxColumn": 127,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.size": "fill",
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.autoGuessEncoding": true,
+
+  "breadcrumbs.enabled": true,
+  "explorer.autoReveal": true,
+  "explorer.compactFolders": false,
+  "window.density.editorTabHeight": "compact",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "markdown-preview-github-styles.darkTheme": "light",
+  "terminal.integrated.fontFamily": "Menlo for Powerline",
+  "debug.toolBarLocation": "commandCenter",
+
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "git.mergeEditor": true,
+  "git.defaultBranchName": "master",
+  "git.branchProtection": ["master"],
+  "git.pruneOnFetch": false,
+  "github.branchProtection": true,
+  "githubPullRequests.pullBranch": "never",
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "[csharp]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "json.maxItemsComputed": 99999,
+
+  "testing.alwaysRevealTestOnStateChange": true
+}
